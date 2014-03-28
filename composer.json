@@ -1,0 +1,20 @@
+{
+   "name": "flyingkrai/framework-app",
+   "description": "An attempt to create a framework from several other frameworks concepts.",
+   "license": "MIT",
+   "authors": [
+      {
+         "name": "Davi Alves",
+         "email": "flyingkrai@gmail.com"
+      }
+   ],
+   "minimum-stability": "stable",
+   "require": {
+      "php": ">=5.3.0"
+   },
+   "autoload": {
+      "psr-4": {
+         "Core\\": "lib/"
+      }
+   }
+}
